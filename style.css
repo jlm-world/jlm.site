@@ -219,3 +219,12 @@ h1 {
 
 .card .item:empty{display:none !important}
 .card .label + *{margin-top:0 !important;padding-top:0 !important}
+
+@media(max-width:767px){
+  body{padding:8px}
+  .wrap{gap:12px}
+  .card{padding:26px}
+  h1{font-size:30px}
+  .sub{font-size:15px}
+  .chip{font-size:13px;padding:7px 12px}
+}
